@@ -4,14 +4,14 @@
 
     <parameter name="baseUrl" value="https://api-coffee-testing.herokuapp.com"></parameter>
 
-    <test name="Miscelaneo">
+    <test name="PostsTest">
         <classes>
-            <class name="Miscelaneo"></class>
+            <class name="api_test.PostsTest"></class>
         </classes>
     </test>
-    <test name="Users">
+    <test name="CommentsTest">
         <classes>
-            <class name="Users"></class>
+            <class name="api_test.CommentsTests"></class>
         </classes>
     </test>
 </suite>

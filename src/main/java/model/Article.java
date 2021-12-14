@@ -1,8 +1,6 @@
 package model;
 
 public class Article {
-
-
     public Article(String title, String content) {
         this.title = title;
         Content = content;
@@ -26,6 +24,5 @@ public class Article {
 
     private String title;
     private String Content;
-
-
 }
+

@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class PostsTest extends BaseTest {
-    String PostId = "/8101";
+    String PostId = "/8137";
     String PostIdNull = "/8855";
     String resourcePath = "/v1/post";
     String resourcePathAll = "/v1/posts";
@@ -84,7 +84,7 @@ public class PostsTest extends BaseTest {
                 .get(resourcePath + PostId)
         // Assertions / Verificaciones
         .then()
-                .body("data.id", equalTo(8099))
+                .body("data.id", equalTo(8137))
                 .statusCode(200);
     }
     @Test

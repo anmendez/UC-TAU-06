@@ -1,7 +1,6 @@
 package specifications;
 
 import helpers.AuthHelper;
-import helpers.DataHelper;
 import io.restassured.authentication.BasicAuthScheme;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;

@@ -3,10 +3,10 @@ package helpers;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import model.User;
+
 import static io.restassured.RestAssured.given;
 
 public class AuthHelper {
-
     public static String getUserToken(){
         // Existing user
         User existingUser = new User("Andrea","123456789abcdefg", "andrea@gmail.com");

@@ -1,14 +1,11 @@
 package model;
 
 public class Comment {
-
     public Comment(String name, String comment) {
         this.name = name;
         this.comment = comment;
     }
-
     private String name;
-
     public String getName() {
         return name;
     }
@@ -18,7 +15,6 @@ public class Comment {
     }
 
     private String comment;
-
     public String getComment() {
         return comment;
     }
